@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../../Images/interior--1.jpg) no-repeat center bottom / cover;  
-    background-attachment: fixed;
+    background: url(../../Images/interior--1.jpg) no-repeat center center / cover;  
+    /* background-attachment: fixed; */
     z-index: 0;
 }
 
