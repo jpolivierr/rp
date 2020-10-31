@@ -15,6 +15,17 @@
 }
 
 @media (max-width: 1090px) {
+   .AboutUs, .WhatWeDo, .Partner{
+     padding: 50px 0px 50px 0px;
+   }
+   .Specialty{
+     margin: 0;
+     padding: 40px 0px 0px 0px;
+   }
+   .Listing{
+     padding: 0;
+   }
+
   .Sides-Menue .Logo2{
     display: none;
   }

@@ -81,7 +81,7 @@
   z-index: -1;
 }
 .main-section-box {
-  width: 700px;
+  width: 100%;
   margin: 0px auto;
   position: relative;
   top: 0px;
@@ -94,8 +94,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  line-height: 3.5rem;
+  font-size: 3rem;
+  line-height: 5.5rem;
   font-weight: lighter;
   color: var(--white-text);
   /* text-align: center; */
