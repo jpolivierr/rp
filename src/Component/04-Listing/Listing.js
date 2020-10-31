@@ -31,13 +31,13 @@ export default function Listing() {
                           </div>
                       
                <div className="Properties"> 
-                     <div className=" arrow arrow-right">
+                     {/* <div className=" arrow arrow-right">
                       <i className="fas fa-chevron-right"></i> 
                    </div>
                      <div className=" arrow arrow-left">
                      <i className="fas fa-chevron-left"></i> 
                        
-                   </div>
+                   </div> */}
                    <Property className='onefade'
                    img= 'img1'
                      price = '$250,000'

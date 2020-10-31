@@ -15,8 +15,26 @@
 }
 
 @media (max-width: 1090px) {
+  .Logo2{
+    display: inline;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .Nav-links .li-phone{
+    display: none;
+  }
   .container {
     width: 70%;
+  }
+  .Showcase {
+    height: 80vh;
+  }
+  .Main-section {
+    background-attachment: none;
   }
   .socials li i {
     /* border: 1px solid red; */
@@ -59,14 +77,13 @@
     align-items: flex-start;
     width: 100%;
   }
-   .Listing-box{
-       width: 100%;
-   }
-  .Properties{
-      display: flex;
-      flex-flow: wrap;
-      width: 100%;
-      
+  .Listing-box {
+    width: 100%;
+  }
+  .Properties {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
   }
 
   .search input:nth-child(5),
@@ -99,9 +116,6 @@
     color: white;
   }
 
-  .Logo2 {
-    display: none;
-  }
   .Nav-links .links {
     display: none;
   }
@@ -267,27 +281,53 @@
   .sell-texts {
     text-align: left;
   }
-  .Search{
-      
-      display: none;
+  .Search {
+    display: none;
   }
-  
 }
 
 @media (max-width: 764px) {
+  
+  .Logo2{
+    display: inline;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .Nav-links .li-phone{
+    display: none;
+  }
+
+  .Navigation{
+    width: 100vw;
+  }
+  .Showcase {
+    height: 50vh;
+  }
   .WhatWeDo-box {
     width: 100%;
   }
-  .main-section-box h1{
-       font-size: 1.3rem;
-       line-height: 2rem;
-   } 
+  .main-section-box h1 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .Main-section{
+    background: var(--showcase-img) no-repeat center top/cover;
+  }
 }
 
-@media (max-width: 524px) {
-   
+@media (max-width: 544px) {
+  .Navigation{
+    width: 100vw;
+  }
   .container {
     width: 94%;
+  }
+  .Showcase {
+    height: 50vh;
   }
   .Sides-Menue {
     width: 90%;
@@ -295,9 +335,23 @@
   .WhatWeDo-box {
     width: 100%;
   }
+  .main-section-box h1 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
 }
 @media (max-width: 524px) {
   .container {
-    width: 95%;
+    width: 93%;
+  }
+  .Navigation{
+    width: 100vw;
+  }
+  .main-section-box {
+  
+  }
+  .main-section-box h1 {
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 }

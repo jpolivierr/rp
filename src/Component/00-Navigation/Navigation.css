@@ -8,45 +8,13 @@
   );
   background: rgb(255, 255, 255);
   height: 90px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   z-index: 4;
   border-bottom: 1px solid var(--nav-border);
-  transition: all .3s ease;
 }
 
-.Navigation.actives {
-  position: fixed;
-  animation: smooth .6s ease forwards;
-  z-index: 4;
-  height: 90px;
-  width: 100%;
-}
-
-.Navigation.Deactives {
-  position: fixed;
-  animation: offsmooth .6s ease forwards;
-  z-index: 4;
-  height: 90px;
-}
-
-/* @keyframes smooth {
-  from{
-     top: -100px;
-  }
-  to{
-    top: 0;
-  }
-}
-@keyframes offsmooth {
-  from{
-     top: 0;
-  }
-  to{
-    top: -100px;
-  }
-} */
 
 .Logo2 {
   background: url(../../Images/Logo\ Edited.png) no-repeat center center/ cover;
@@ -62,8 +30,8 @@
   /* border: 1px solid red; */
 }
 .logoimg2 {
-  width: 160px;
-  height: 60px;
+  width: 130px;
+  height: 50px;
   background: url(../../Images/Logo\ Edited.png) no-repeat center center/ cover;
 }
 .Nav-box {
@@ -143,7 +111,7 @@
 .Menuebars {
   /* border: 1px solid red; */
   right: 0;
-  height: 90px;
+  height: 80px;
   width: min-content;
   background: white;
   display: flex;
@@ -152,7 +120,7 @@
   align-items: flex-end;
   /* border: 1px solid red; */
   position: relative;
-  padding: 20px 20px 0px 0px;
+  padding: 25px 20px 0px 0px;
 }
 
 .lines {
@@ -163,7 +131,7 @@
 .line1 {
   width: 80%;
   position: relative;
-  top: 7px;
+  top: 5px;
 }
 .line2 {
   position: relative;
@@ -172,12 +140,14 @@
 .line3 {
   width: 75%;
   position: relative;
-  top: -13px;
+  top: -11px;
 }
 
 .menuetext {
   text-transform: none;
   padding-top: 0px;
+  font-size: .8rem;
+ 
 }
 
 .li-phone:hover .drop-box {
