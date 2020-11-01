@@ -30,11 +30,14 @@
 .box{
     position: relative;
     height: min-content;
+    /* min-width: 350px; */
+    /* border: 1px solid red; */
 }
 
 .sec-title{
   display: flex;
   padding-left: 40px;
+  
 }
 
 .box-img{
@@ -67,7 +70,8 @@
 }
 .box p{
     color: var(--text-color);
-    padding: 35px 0px 5px 0px 
+    padding: 35px 0px 5px 0px ;
+    /* border: 1px solid red; */
 }
 .link {
     font-weight: bold;

@@ -23,7 +23,7 @@
      padding: 40px 0px 0px 0px;
    }
    .Listing{
-     padding: 0;
+     padding: 50px 0px;
    }
 
   .Sides-Menue .Logo2{
@@ -37,6 +37,10 @@
     left: 0;
     right: 0;
     margin: auto;
+  }
+  .main-section-box h1 {
+    font-size: 2rem;
+    line-height: 3rem;
   }
   .Nav-links .li-phone{
     display: none;
@@ -327,8 +331,8 @@
     width: 100%;
   }
   .main-section-box h1 {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
   }
   .Main-section{
     background: var(--showcase-img) no-repeat center top/cover;
@@ -352,8 +356,8 @@
     width: 100%;
   }
   .main-section-box h1 {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
   }
 }
 @media (max-width: 524px) {

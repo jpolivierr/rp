@@ -23,7 +23,7 @@ class WhatWeDo extends Component {
                             {/* <h3>Buy A Home</h3> */}
                             <p>When our customers find the property they have been looking for, we trust that we informed
 them on every indicator relevant to them, that they browsed a highly targeted selection of
-properties that matched their wishlist.<br/>
+properties that matched their <br/>
                             </p>
                              <Link to='/properties' style={{textDecoration:'none'}}>
                              <span className='link'>View Listings &nbsp; &nbsp; <i className="fas fa-chevron-right"></i><i className="fas fa-chevron-right"></i></span>
@@ -52,7 +52,8 @@ time. <br/>
                             </div>
                             {/* <h3>Work With Us</h3> */}
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad consectetur adipisicing elitconsectetur <br/>adipisicing elit<br/>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad consectetur adipisicing elitconsectetur adipisicing elit  sit amet consectetur adipisicing <br/>
+                                
                             </p>
                             <Link to='/partners' style={{textDecoration:'none'}}>
                             <span className='link'>Read more &nbsp; &nbsp; <i className="fas fa-chevron-right"></i><i className="fas fa-chevron-right"></i></span>
